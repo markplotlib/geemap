@@ -1,0 +1,58 @@
+Ctrl+F the TODO's below
+
+
+[Introduction to remote sensing](https://worldbank.github.io/OpenNightLights/tutorials/mod1_1_introduction_to_remote_sensing.html)
+
+In remote sensing, *resolution* can refer to one of three things:
+**Spatial, spectral and temporal resolutions**
+
+### Spatial resolution
+
+TODO: add 3 images
+
+Most of this project works with the VIIRS-DNB and DMSP-OLS VNIR band data. 
+VIIRS has a spatial resolution of approximately 750m,
+while DMSP has about 2.7km.
+
+### Spectral resolution
+
+This is the number and width of spectral bands that the sensor detects.
+Higher spectral resolution indicates a narrower wavelength range for a given channel or band.
+There can be **multispectral imagery** (3-10 bands) or even **hyperspectral imagery** (100+ bands).
+
+Both VIIRS-DNB and DMSP-OLS data have *single panchromatic* channels covering the wavelengths ranging from 500 to 900 nanometers.
+(Visible light ranges from about 380 nm to 740 nm. 900 nm falls into infrared waves.)
+
+### Temporal resolution 
+
+> Temporal resolution refers to the repeat cycle, or frequency, with which a sensor revisits the same part of the Earth’s surface. 
+> You might hear this referred to as a satellite’s *revisit time*.
+
+## Trade-offs in resolutions
+
+The tradeoffs work in a triangular fashion. Here's how:
+In one case, the higher the spatial resolution, the lower the spectral and the temporal resolution.
+In another, the higher the temporal resolution, the lower the spatial and spectral resolutions.
+
+TODO: add triangle
+
+
+Both VIIRS-DNB and DMSP-OLS data image the same earth location at least twice a day.
+
+# Applications of remotely-sensed derived data in socio-economic research
+
+Here are some mentioned examples:
+
+* Nighttime light can serve as a *proxy for economic activity*, due to the strong correlation 
+between nighttime lights and GDP or Gross State Product (GSP). Particularly when 
+states don't make data available or when data reported is of low quality or out of date.
+
+* Remotely sensed data can offer a higher spatial resolution than other published or gathered state sources.
+It is unconstrained to scales set by political or administrative boundaries.
+
+* Satellite data can be reliable, continuous and consistent, 
+regardless of circumstances on the ground, such as political turmoil or natural disasters.
+Satellites can observe every location on Earth on a daily or weekly basis.
+
+* Remote sensing observations collect panel data at low marginal cost, 
+since the infrastructure and capital costs have already been spent.
